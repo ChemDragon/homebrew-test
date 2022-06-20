@@ -51,11 +51,11 @@ function checkFileContents () {
 
 function buildDeepIndex () {
 	Um.info(`INDEX`, `Indexing...`);
-	const PATH_TIMESTAMP_INDEX = "../_generated/index-timestamps.json";
-	const PATH_PROP_INDEX = "../_generated/index-props.json";
-	const PATH_SOURCE_INDEX = "../_generated/index-sources.json";
-	const PATH_NAME_INDEX = "../_generated/index-names.json";
-	const PATH_ABBREVIATION_INDEX = "../_generated/index-abbreviations.json";
+	const PATH_TIMESTAMP_INDEX = "_generated/index-timestamps.json";
+	const PATH_PROP_INDEX = "_generated/index-props.json";
+	const PATH_SOURCE_INDEX = "_generated/index-sources.json";
+	const PATH_NAME_INDEX = "_generated/index-names.json";
+	const PATH_ABBREVIATION_INDEX = "_generated/index-abbreviations.json";
 
 	const timestampIndex = {};
 	const propIndex = {};
